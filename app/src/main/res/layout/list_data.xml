@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#00BCD4"
+    android:layout_marginBottom="20dp"
+    >
+
+    <TextView
+        android:id="@+id/listid"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        android:text="No"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="No Berkas : "
+            />
+        <TextView
+            android:id="@+id/listnoberkas"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="No Berkas"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Nama Obyek : "
+            />
+        <TextView
+            android:id="@+id/listnamaobyek"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Nama Obyek"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            android:text="Alamat : "
+            />
+        <TextView
+            android:id="@+id/listalamat"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Alamat"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            android:text="Lokasi : "
+            />
+        <TextView
+            android:id="@+id/listlokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Lokasi"
+            />
+    </LinearLayout>
+</LinearLayout>
