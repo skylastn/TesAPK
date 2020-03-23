@@ -44,6 +44,10 @@ public class MainActivity extends AppCompatActivity {
 
                 Data semuaData = new Data(NoBerkas.getText().toString(), NamaObyek.getText().toString(),Alamat.getText().toString(),Lokasi.getText().toString());
                 datasemua.add(semuaData);
+                NoBerkas.setText("");
+                NamaObyek.setText("");
+                Alamat.setText("");
+                Lokasi.setText("");
                 mAdapter.notifyDataSetChanged();
                 dataRecyclerView.setAdapter(mAdapter);
 
